@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useApp } from '../../context/AppContext';
-import { DataTable, Modal, FormInput } from '../../components';
+import { useApp } from '../../../context/AppContext';
+import { DataTable, Modal, FormInput } from '../../../components';
 
 const StudentList = () => {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
-import { DataTable, Modal, FormInput } from '../../components';
+import { useApp } from '../../../context/AppContext';
+import { DataTable, Modal, FormInput } from '../../../components';
 
 const Lessons = () => {
   const { lessons, courses } = useApp();

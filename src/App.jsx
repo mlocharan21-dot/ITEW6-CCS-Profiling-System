@@ -5,21 +5,21 @@ import { Layout } from './components';
 
 // Pages
 import Dashboard from './pages/Dashboard';
-import StudentList from './pages/students/StudentList';
-import StudentProfile from './pages/students/StudentProfile';
-import FacultyList from './pages/faculty/FacultyList';
-import FacultyProfile from './pages/faculty/FacultyProfile';
-import Instruction from './pages/instruction/Instruction';
-import Syllabus from './pages/instruction/Syllabus';
-import Lessons from './pages/instruction/Lessons';
-import Curriculum from './pages/instruction/Curriculum';
-import Scheduling from './pages/instruction/scheduling/Scheduling';
-import Courses from './pages/instruction/scheduling/Courses';
-import Sections from './pages/instruction/scheduling/Sections';
-import Rooms from './pages/instruction/scheduling/Rooms';
-import Laboratories from './pages/instruction/scheduling/Laboratories';
-import FacultyAssignment from './pages/instruction/scheduling/FacultyAssignment';
-import Events from './pages/events/Events';
+import StudentList from './pages/San Jose/students/StudentList';
+import StudentProfile from './pages/San Jose/students/StudentProfile';
+import FacultyList from './pages/Ocasla/faculty/FacultyList';
+import FacultyProfile from './pages/Ocasla/faculty/FacultyProfile';
+import Instruction from './pages/Cao/instruction/Instruction';
+import Syllabus from './pages/Cao/instruction/Syllabus';
+import Lessons from './pages/Cao/instruction/Lessons';
+import Curriculum from './pages/Cao/instruction/Curriculum';
+import Scheduling from './pages/Posicion/scheduling/Scheduling';
+import Courses from './pages/Posicion/scheduling/Courses';
+import Sections from './pages/Posicion/scheduling/Sections';
+import Rooms from './pages/Posicion/scheduling/Rooms';
+import Laboratories from './pages/Posicion/scheduling/Laboratories';
+import FacultyAssignment from './pages/Posicion/scheduling/FacultyAssignment';
+import Events from './pages/Ocharan/events/Events';
 
 function App() {
   return (

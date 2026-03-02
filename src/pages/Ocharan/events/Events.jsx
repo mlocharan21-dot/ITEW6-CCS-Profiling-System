@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { useApp } from '../../context/AppContext';
-import { DataTable, Modal, FormInput } from '../../components';
+import { useApp } from '../../../context/AppContext';
+import { DataTable, Modal, FormInput } from '../../../components';
 
 const Events = () => {
   const { events, addEvent, updateEvent, deleteEvent } = useApp();
